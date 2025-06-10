@@ -1,7 +1,8 @@
 import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import fullstack from "./full-stack.png";
+import java from "./java.png" ;
+import devops from "./devops.png" ;
+import ai from "./ai.png" ;
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -32,9 +33,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  fullstack,
+  java,
+  devops,
+  ai,
   web,
   github,
   menu,
