@@ -16,9 +16,9 @@ import {
   tesla,
   shopify,
   walmart,
-  carrent,
-  jobit,
-  tripguide,
+  finly,
+  calculator,
+  paint,
   threejs,
   fullstack,
   devops,
@@ -131,7 +131,7 @@ const experiences = [
 },
 ];
 
-const testimonials = [
+/* const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -156,72 +156,68 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
-];
+]; */
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Finly - Finance Management Web App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Finly is a sleek, modern web application designed to help individuals take control of their personal finances.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "nextjs",
+        color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "typescript",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: finly,
+    source_code_link: "https://github.com/asarkar2210/finly-finance-webapp",
   },
   {
-    name: "Job IT",
+    name: "Simple Calculator Web App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A lightweight React application that provides basic calculator functionality with a clean, responsive UI.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: calculator,
+    source_code_link: "https://github.com/asarkar2210/simple-calculator-webapp",
+  },
+  {
+    name: "Paint Application",
+    description:
+      "A simple desktop drawing application built with Python. Draw freehand with customizable brush sizes and colors, erase, add text, and save your creations.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tkinter-library",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pillow-library",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: paint,
+    source_code_link: "https://github.com/asarkar2210/paint-application",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

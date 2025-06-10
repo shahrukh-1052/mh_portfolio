@@ -28,9 +28,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import walmart from "./company/walmart.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import finly from "./finly.png";
+import calculator from "./calculator.png";
+import paint from "./paint.png";
 
 export {
   logo,
@@ -60,7 +60,7 @@ export {
   starbucks,
   tesla,
   walmart,
-  carrent,
-  jobit,
-  tripguide,
+  finly,
+  calculator,
+  paint,
 };
