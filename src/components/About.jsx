@@ -41,7 +41,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary tex-[17px] max-w-3xl leading-[30px]'>
-        I'm a Computer Science student at KIIT University with a strong grasp of front-end development, 
+        I'm a Computer Science Engineering student at KIIT University with a strong grasp of front-end development, 
         building modern and responsive UIs using tools like React, Next.js, TypeScript, and Tailwind CSS. 
         I'm currently deepening my full-stack skills and transitioning into DevOps to deliver scalable, end-to-end solutions.
       </motion.p>
