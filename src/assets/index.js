@@ -17,20 +17,16 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import walmart from "./company/walmart.png"
 
 import finly from "./finly.png";
 import calculator from "./calculator.png";
 import paint from "./paint.png";
+
+import linkedin from "./linkedin.webp"
 
 export {
   logo,
@@ -51,16 +47,12 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   walmart,
   finly,
   calculator,
   paint,
+  linkedin,
 };

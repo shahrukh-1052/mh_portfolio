@@ -5,6 +5,7 @@ import {styles} from '../styles' ;
 import {EarthCanvas} from './canvas' ;
 import {SectionWrapper} from '../hoc' ;
 import { slideIn } from '../utils/motion';
+import { linkedin } from '../assets';
 
 const Contact = () => {
 
@@ -60,8 +61,25 @@ const Contact = () => {
         variants={slideIn('left','tween', 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
+        <div>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <div className='absolute inset-10 flex justify-end m-3 card-img_hover'>
+          <div
+            onClick={() => window.open("https://www.linkedin.com/in/ayushhman/", "_blank")}
+            className='w-20 h-20 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={linkedin}
+              alt='linkedin'
+              className='w-15 h-15 object-contain'
+            />
+          </div>
+        </div>
+        
+        
+        </div>  
 
         <form 
           ref={formRef}

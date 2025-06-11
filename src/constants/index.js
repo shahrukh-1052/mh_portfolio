@@ -4,17 +4,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   walmart,
   finly,
   calculator,
@@ -24,6 +19,7 @@ import {
   devops,
   ai,
   java,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
