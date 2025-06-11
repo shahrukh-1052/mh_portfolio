@@ -61,25 +61,22 @@ const Contact = () => {
         variants={slideIn('left','tween', 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <div>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
-        <div className='absolute inset-10 flex justify-end m-3 card-img_hover'>
-          <div
+      
+        <div className="absolute flex top-12 right-5 m-5">
+        <div
             onClick={() => window.open("https://www.linkedin.com/in/ayushhman/", "_blank")}
-            className='w-20 h-20 rounded-full flex justify-center items-center cursor-pointer'
+            className="w-14 h-14 rounded-full flex justify-center items-center bg-white hover:scale-105 transition-transform cursor-pointer"
           >
             <img
               src={linkedin}
-              alt='linkedin'
-              className='w-15 h-15 object-contain'
+              alt="linkedin"
+              className="w-12 h-12 object-contain"
             />
-          </div>
+          </div>          
         </div>
-        
-        
-        </div>  
+ 
 
         <form 
           ref={formRef}
