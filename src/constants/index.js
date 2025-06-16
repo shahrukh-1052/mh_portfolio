@@ -28,8 +28,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -43,15 +43,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Backend Developer",
     icon: fullstack,
   },
   {
-    title: "Proficient in Java",
+    title: "Proficient in Python",
     icon: java,
   },
   {
-    title: "DevOps Enthusiast",
+    title: "Cyber Security Enthusiast",
     icon: devops,
   },
   {
@@ -74,11 +74,11 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "python",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Django",
     icon: reactjs,
   },
 /*   {
@@ -86,11 +86,11 @@ const technologies = [
     icon: redux,
   }, */
   {
-    name: "Tailwind CSS",
+    name: "java",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "c",
     icon: nodejs,
   },
 /*   {
@@ -98,7 +98,7 @@ const technologies = [
     icon: mongodb,
   }, */
   {
-    name: "Three JS",
+    name: "AWS",
     icon: threejs,
   },
   {
@@ -117,16 +117,16 @@ const technologies = [
 
 const experiences = [
 {
-  title: "Software Engineering Virtual Experience",
-  company_name: "Walmart Global Tech",
+  title: "Generative AI Virtual Internship",
+  company_name: "AICTE Eduskills + Google Cloud",
   icon: walmart,
-  iconBg: "#0071ce",
-  date: "May 2025 - June 2025",
+  iconBg: " #EAF6FF",
+  date: "Feb 2024 – March 2024",
   points: [
-    "Completed Walmart’s Software Engineering Virtual Job Simulation on Forage, gaining hands-on experience in software development best practices.",
-    "Implemented scalable backend systems and contributed to API design decisions based on real-world engineering scenarios.",
-    "Debugged, optimized, and tested code to meet performance and functionality standards aligned with Walmart’s engineering practices.",
-    "Demonstrated strong problem-solving skills by completing tasks simulating actual developer challenges in a large-scale tech environment."
+    "Completed a hands-on virtual internship on Generative AI under AICTE Eduskills, powered by Google Cloud",
+    "Explored foundational and advanced concepts in LLMs, Prompt Engineering, and model fine-tuning",
+    "Gained practical skills in deploying and experimenting with generative models using Google Cloud tools",
+    "Built a strong understanding of modern AI applications and ethical considerations in GenAI systems"
   ]
 },
 ];
@@ -160,63 +160,73 @@ const experiences = [
 
 const projects = [
   {
-    name: "Finly - Finance Management Web App",
+    name: "Bank Management System",
     description:
-      "Finly is a sleek, modern web application designed to help individuals take control of their personal finances.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: finly,
-    source_code_link: "https://github.com/asarkar2210/finly-finance-webapp",
-  },
-  {
-    name: "Simple Calculator Web App",
-    description:
-      "A lightweight React application that provides basic calculator functionality with a clean, responsive UI.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: calculator,
-    source_code_link: "https://github.com/asarkar2210/simple-calculator-webapp",
-  },
-  {
-    name: "Paint Application",
-    description:
-      "A simple desktop drawing application built with Python. Draw freehand with customizable brush sizes and colors, erase, add text, and save your creations.",
+      "A secure Python-MySQL application that enables users to manage accounts, perform transactions, and track banking activities via a clean command-line interface.",
     tags: [
       {
         name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "tkinter-library",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "pillow-library",
+        name: "oop",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finly,
+    source_code_link: "https://github.com/shahrukh-1052/BANKING-MANAGEMENT-SYSTEM",
+  },
+  {
+    name: "Priority Planner",
+    description:
+      "A Django-based web app that helps users organize and prioritize tasks efficiently with deadline tracking, user authentication, and a responsive UI.",
+    tags: [
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html/css/bootstrap",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: calculator,
+    source_code_link: "https://github.com/shahrukh-1052/PRIORITY_PLANNER",
+    live_demo_link: "https://priority-planner-chi.vercel.app/",
+  },
+  {
+    name: "Password Manager",
+    description:
+      "A secure password management tool built in Python to help users generate strong passwords, assess password strength, and learn modern security practices to guard against digital threats.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html/css/bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: paint,
-    source_code_link: "https://github.com/asarkar2210/paint-application",
+    source_code_link: "https://github.com/shahrukh-1052/PASSWORD_MANAGER",
+    live_demo_link: "https://shahrukh-1052.github.io/SecurePasswords-Hub/",
   },
 ];
 

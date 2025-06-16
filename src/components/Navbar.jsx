@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-10 h-10 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Ayushman&nbsp;
-            <span className='sm:block hidden'>Sarkar</span>
+            MOHAMMED&nbsp;
+            <span className='sm:block hidden'>HABEEBUDDIN</span>
           </p>
         </Link>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.id ==='resume'? "https://drive.google.com/file/d/1WieqCvRogTZLRHiAG7AdcDYPJNnDOzSo/view?usp=drive_link" : `#${nav.id}`}>{nav.title}</a>
+              <a href={nav.id ==='resume'? "https://drive.google.com/file/d/1147x295-9mEOGVG_AP1XKgUWQGMjb8In/view?usp=sharing" : `#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -88,7 +88,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={nav.id==='resume' ? "https://drive.google.com/file/d/1WieqCvRogTZLRHiAG7AdcDYPJNnDOzSo/view?usp=drive_link" : `#${nav.id}`}>
+                  <a href={nav.id==='resume' ? "https://drive.google.com/file/d/1147x295-9mEOGVG_AP1XKgUWQGMjb8In/view?usp=sharing" : `#${nav.id}`}>
                     {nav.title}
                   </a>
                 </li>
