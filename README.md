@@ -2,9 +2,8 @@
 
 Welcome to my **3D Portfolio Website**, a visually engaging personal portfolio built with **React**, **Three.js**, and **Tailwind CSS**. This project showcases my skills, projects, and experience through an interactive 3D interface.
 
-> 🔗 **Live Demo:** [Visit Website](https://asarkar2210.github.io/3d-portfolio/)  
-> 📦 **GitHub Repo:** [github.com/asarkar2210/3d-portfolio](https://github.com/asarkar2210/3d-portfolio)
-
+> 🔗 **Live Demo:** [Visit Website](https://mh-lab.vercel.app/)  
+> 📦 **GitHub Repo:** https://github.com/shahrukh-1052/mh_portfolio
 ---
 
 ## 🛠️ Tech Stack
@@ -12,7 +11,6 @@ Welcome to my **3D Portfolio Website**, a visually engaging personal portfolio b
 - **React.js** – Frontend framework
 - **Three.js / @react-three/fiber** – 3D rendering
 - **@react-three/drei** – Helpers for easier 3D scenes
-- **Tailwind CSS** – Styling and layout
 - **Framer Motion** – Animations
 - **React Router** – Navigation between sections
 
@@ -33,7 +31,7 @@ Welcome to my **3D Portfolio Website**, a visually engaging personal portfolio b
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/asarkar2210/3d-portfolio.git
+git clone https://github.com/
 cd 3d-portfolio
 ```
 
@@ -102,9 +100,9 @@ This project helped me dive deeper into:
 
 ## 📬 Contact
 
-- 📧 Email: ayushhmansarkar@gmail.com
-- 🌐 Portfolio: https://ayushhman.vercel.app/
-- 💼 LinkedIn: https://www.linkedin.com/in/ayushhman/
+- 📧 Email: mmohammedhabeebuddin79@gmail.com
+- 🌐 Portfolio: ht
+- 💼 LinkedIn: 
 
 ---
 
