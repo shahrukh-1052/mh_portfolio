@@ -24,37 +24,8 @@ Welcome to my **3D Portfolio Website**, a visually engaging personal portfolio b
 - 🧩 Modular and scalable code structure
 - 💼 Sections for About, Skills, Projects, and Contact
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/
-cd 3d-portfolio
-```
-
-### 2. Install dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the development server
-
-```bash
-npm run dev
-```
-
-> Runs on `http://localhost:5173` (or as specified in your setup)
-
----
-
-## 🖼️ Demo
 
 
-https://github.com/user-attachments/assets/0ab844f0-53f5-4fec-a5ce-95f68c418678
 
 
 ---
@@ -100,12 +71,15 @@ This project helped me dive deeper into:
 
 ## 📬 Contact
 
-- 📧 Email: mmohammedhabeebuddin79@gmail.com
-- 🌐 Portfolio: ht
-- 💼 LinkedIn: 
+> For questions, feedback, or collaboration — feel free to reach out!
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/mohammed-habeebuddin/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:mohammedhabeebuddin79@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).//correct code in single frame , i mean i will just copy at a time and paste it....give complete in single
+<p align="center"><i>Made with ❤️ by Mohammed Habeebuddin</i></p>
