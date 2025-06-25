@@ -1,39 +1,43 @@
+Here is your **complete and corrected README.md** code for your 3D Portfolio Website in a single copy-paste-ready format:
+
+````markdown
 # 🧑‍💻 3D Portfolio Website
 
 Welcome to my **3D Portfolio Website**, a visually engaging personal portfolio built with **React**, **Three.js**, and **Tailwind CSS**. This project showcases my skills, projects, and experience through an interactive 3D interface.
 
 > 🔗 **Live Demo:** [Visit Website](https://mh-lab.vercel.app/)  
-> 📦 **GitHub Repo:** https://github.com/shahrukh-1052/mh_portfolio
+> 📦 **GitHub Repo:** [mh_portfolio](https://github.com/shahrukh-1052/mh_portfolio)
+
 ---
 
 ## 🛠️ Tech Stack
 
-- **React.js** – Frontend framework
-- **Three.js / @react-three/fiber** – 3D rendering
-- **@react-three/drei** – Helpers for easier 3D scenes
-- **Framer Motion** – Animations
-- **React Router** – Navigation between sections
+- **React.js** – Frontend framework  
+- **Three.js / @react-three/fiber** – 3D rendering  
+- **@react-three/drei** – Helpers for easier 3D scenes  
+- **Framer Motion** – Smooth animations  
+- **React Router** – Navigation between pages  
 
 ---
 
 ## 📸 Features
 
-- 🌌 Fully animated 3D experience using `Three.js`
-- 📱 Responsive design for all devices
-- ✨ Smooth transitions and animations
-- 🧩 Modular and scalable code structure
-- 💼 Sections for About, Skills, Projects, and Contact
+- 🌌 Fully animated 3D experience using `Three.js`  
+- 📱 Responsive design for all screen sizes  
+- ✨ Smooth transitions and page animations  
+- 🧩 Modular and scalable codebase  
+- 💼 Dedicated sections for About, Skills, Projects, and Contact  
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/
-cd 3d-portfolio
-```
+git clone https://github.com/shahrukh-1052/mh_portfolio.git
+cd mh_portfolio
+````
 
 ### 2. Install dependencies
 
@@ -47,15 +51,7 @@ npm install
 npm run dev
 ```
 
-> Runs on `http://localhost:5173` (or as specified in your setup)
-
----
-
-## 🖼️ Demo
-
-
-https://github.com/user-attachments/assets/0ab844f0-53f5-4fec-a5ce-95f68c418678
-
+> The app will run on `http://localhost:5173` (or as specified in your terminal)
 
 ---
 
@@ -63,49 +59,60 @@ https://github.com/user-attachments/assets/0ab844f0-53f5-4fec-a5ce-95f68c418678
 
 ```
 src/
-├── assets/              # Static assets like images and icons
-├── components/          # Reusable components
-├── constants/           # Data constants
-├── pages/               # Individual page sections
-├── styles/              # Tailwind or custom styles
-├── utils/               # Utility functions
+├── assets/              # Static assets (images, icons, models)
+├── components/          # Reusable UI and layout components
+├── constants/           # Data and static content
+├── pages/               # Main page sections (Home, About, etc.)
+├── styles/              # Tailwind and custom CSS
+├── utils/               # Helper functions/utilities
 ├── App.jsx              # Root component
-├── main.jsx             # Entry point
+├── main.jsx             # App entry point
 ```
 
 ---
 
-## 🐞 Bugs
+## 🖼️ Demo Preview
 
-- Some parts of the website break if viewed on mobile.
+![Demo](https://github.com/user-attachments/assets/0ab844f0-53f5-4fec-a5ce-95f68c418678)
 
 ---
 
-## 🧠 Learnings
+## 🐞 Known Issues
 
-This project helped me dive deeper into:
-- Real-time 3D rendering with React
-- Performance optimization for 3D models
-- Advanced animations with Framer Motion
-- Building scalable, responsive UIs
+* 🔧 Some 3D components may not render perfectly on very small mobile screens.
+* 🐌 Initial load may take time due to model loading.
+
+---
+
+## 🧠 What I Learned
+
+Working on this project deepened my knowledge in:
+
+* Real-time 3D rendering with **Three.js** and **@react-three/fiber**
+* Responsive layout design with **Tailwind CSS**
+* Advanced page and component animations using **Framer Motion**
+* Code splitting and component modularization in **React**
+* Optimizing 3D performance for web
 
 ---
 
 ## 🙏 Acknowledgements
 
-- Inspired by the **JavaScript Mastery** tutorial by [Adrian Hajdin](https://github.com/adrianhajdin)
-- Thanks to the creators of **@react-three/fiber** and **drei**
+* Inspired by the **JavaScript Mastery** tutorial by [Adrian Hajdin](https://github.com/adrianhajdin)
+* Thanks to the open-source authors of **@react-three/fiber**, **drei**, and **Framer Motion**
 
 ---
 
-## 📬 Contact
+## 📬 Contact Me
 
-- 📧 Email: mmohammedhabeebuddin79@gmail.com
-- 🌐 Portfolio: ht
-- 💼 LinkedIn: 
+* 📧 Email: [mmohammedhabeebuddin79@gmail.com](mailto:mmohammedhabeebuddin79@gmail.com)
+* 🌐 Portfolio: [https://mh-lab.vercel.app](https://mh-lab.vercel.app)
+* 💼 LinkedIn: [linkedin.com/in/mhabeebuddin](https://www.linkedin.com/in/mhabeebuddin)
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
+
+
