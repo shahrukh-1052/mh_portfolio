@@ -58,7 +58,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.id ==='resume'? "https://drive.google.com/file/d/1147x295-9mEOGVG_AP1XKgUWQGMjb8In/view?usp=sharing" : `#${nav.id}`}>{nav.title}</a>
+              <a href={nav.id ==='resume'? "https://drive.google.com/file/d/1DCwJeaaVV2xy0ocjHnm78XUWkNDXVkk_/view?usp=drive_link" : `#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
         </ul>
@@ -88,7 +88,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={nav.id==='resume' ? "https://drive.google.com/file/d/1147x295-9mEOGVG_AP1XKgUWQGMjb8In/view?usp=sharing" : `#${nav.id}`}>
+                  <a href={nav.id==='resume' ? "https://drive.google.com/file/d/1DCwJeaaVV2xy0ocjHnm78XUWkNDXVkk_/view?usp=drive_link" : `#${nav.id}`}>
                     {nav.title}
                   </a>
                 </li>
